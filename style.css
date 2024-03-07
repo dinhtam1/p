@@ -1,0 +1,60 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 40px; /* Gấp đôi padding */
+}
+
+/* Style the heading */
+h1 {
+    color: #333;
+    font-size: 48px; /* Gấp đôi font size */
+    margin-bottom: 40px; /* Gấp đôi margin-bottom */
+}
+
+/* Style the label */
+label {
+    display: block;
+    margin-bottom: 20px; /* Gấp đôi margin-bottom */
+    font-size: 36px; /* Gấp đôi font size */
+}
+
+/* Style the input field */
+input[type="time"] {
+    padding: 16px; /* Gấp đôi padding */
+    width: 400px; /* Gấp đôi chiều rộng */
+    border: 2px solid #ccc; /* Gấp đôi độ dày border */
+    border-radius: 10px; /* Gấp đôi border radius */
+    margin-bottom: 20px; /* Gấp đôi margin-bottom */
+    font-size: 36px; /* Gấp đôi font size */
+}
+
+/* Style the buttons */
+button {
+    padding: 20px 40px; /* Gấp đôi padding */
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 10px; /* Gấp đôi border radius */
+    cursor: pointer;
+    margin-right: 20px; /* Gấp đôi margin-right */
+    font-size: 36px; /* Gấp đôi font size */
+}
+
+/* Style the div containers */
+div {
+    margin-bottom: 20px; /* Gấp đôi margin-bottom */
+}
+
+/* Style the displayed time */
+#display-time, #next-time {
+    font-size: 36px; /* Gấp đôi font size */
+    color: #333;
+}
